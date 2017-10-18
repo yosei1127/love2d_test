@@ -11,5 +11,7 @@ function love.update(dt)
 end
 
 function love.draw()
+    --背景を青色で塗りつぶす
+    love.graphics.setBackgroundColor(0, 0, 255)
     love.graphics.print("Hello world!", 400, 300)
 end
